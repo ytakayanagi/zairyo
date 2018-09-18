@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Clarifai from 'clarifai';
-import Navigation from './components/Navigation/Navigation';
+// import Navigation from './components/Navigation/Navigation';
 import Logo from './components/Logo/Logo';
 import ImageLinkForm from './components/ImageLinkForm/ImageLinkForm';
 import FoodRecognition from './components/FoodRecognition/FoodRecognition';
