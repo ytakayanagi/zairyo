@@ -25,6 +25,7 @@ class App extends Component {
   }
 
   onButtonSubmit = () => {
+    this.state.ingridients = [];
     this.setState({imageUrl: this.state.input});
     app.models.predict(Clarifai.FOOD_MODEL, this.state.input)
     .then(response => {

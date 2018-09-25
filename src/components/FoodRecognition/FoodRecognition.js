@@ -3,7 +3,7 @@ import React from 'react';
 const FoodRecognition = ({ imageUrl, ingridients }) => {
     return (
         <div className='w-80 mw7 mt5 db center tc shadow-4'>
-            <img className='db ba b--black-10' alt='' src={imageUrl} height='auto' />
+            <img className='db ba b--black-10' alt='' src={imageUrl} width='100%' height='auto' />
             <div className="pa4 bg-white">
                 <div className="overflow-auto">
                 <table id='ingredients' className="f6 w-100" cellspacing="0">
